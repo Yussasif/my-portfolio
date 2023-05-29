@@ -112,108 +112,17 @@ const articles = () => {
       <TransitionEffect />
       <main className=" w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16 ">
-          <AnimatedText text={"Words Can Change The World"} className="mb-16 lg:!text-7x sm:mb-8 sm:!text-6xl xs:!text-4xl" />
+          <AnimatedText text={"Coming Soon!"} className="mb-16 lg:!text-7x sm:mb-8 sm:!text-6xl xs:!text-4xl" />
           <ul className="grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16">
-            <FeaturedArticle
-              img={article1}
-              title={
-                "Build A Custom Pagination Component In Reactjs From Scratch"
-              }
-              time={"9 min read"}
-              summary={
-                "Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              }
-              link={"/"}
-            />
-            <FeaturedArticle
-              img={article2}
-              title={
-                "Build A Custom Pagination Component In Reactjs From Scratch"
-              }
-              time={"9 min read"}
-              summary={
-                "Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              }
-              link={"/"}
-            />
+            
           </ul>
           <h2 className="font-bold tex-4xl w-full text-center my-16 mt-32">
             All Articles
           </h2>
 
           <ul>
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
-            <Article
-              title={
-                "Form Validation IN Reactjs: Build A Reuseable Custom Hook For Inputs And Error Handling"
-              }
-              img={article3}
-              date={"May 20, 2023"}
-              link={"/"}
-            />
+        
+       
           </ul>
         </Layout>
       </main>

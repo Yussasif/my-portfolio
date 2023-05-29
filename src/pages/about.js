@@ -6,8 +6,8 @@ import React, { useEffect, useRef } from "react";
 import faceFront from "../../public/images/profile/faceFront.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
-import Experience from "@/components/Experience";
-import Education from "@/components/Education";
+// import Experience from "@/components/Experience";
+// import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -124,8 +124,8 @@ const about = () => {
           </div>
 
           <Skills />
-          <Experience />
-          <Education />
+          {/* <Experience /> */}
+          {/* <Education /> */}
         </Layout>
       </main>
     </>

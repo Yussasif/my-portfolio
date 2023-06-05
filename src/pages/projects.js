@@ -4,7 +4,7 @@ import { GithubIcon } from "@/components/icons";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import Project1 from "../../public/images/projects/crypto-Screener-cover-image.jpg";
+
 import Image from "next/image";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";

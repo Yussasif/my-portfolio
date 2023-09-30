@@ -4,15 +4,14 @@ import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
   TwitterIcon,
-  DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
   SunIcon,
   MoonIcon,
 } from "./icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
+import Image from "next/image";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -95,13 +94,17 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com/This_TunjiGuy?t=ymmVkK5OJTlAoovOYdgU1Q&s=08"
+            href="https://twitter.com/adetunjiowoade_"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
           >
-            <TwitterIcon />
+            {mode === 'dark' ? 
+            <img src="/images/newTwitterlight.webp" alt="X icon" className="w-6 h-auto" /> :
+            <img src="/images/newTwitterdark.png" alt="X icon" className="w-6 h-auto" /> 
+        
+        }
           </motion.a>
           <motion.a
             href="https://github.com/Yussasif"
@@ -182,7 +185,7 @@ const NavBar = () => {
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://twitter.com/This_TunjiGuy?t=ymmVkK5OJTlAoovOYdgU1Q&s=08/"
+              href="https://twitter.com/adetunjiowoade_"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

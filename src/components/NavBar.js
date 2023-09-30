@@ -191,7 +191,11 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-1"
             >
-              <TwitterIcon />
+              {mode === 'light' ? 
+            <img src="/images/newTwitterlight.webp" alt="X icon" className="w-6 h-auto" /> :
+            <img src="/images/newTwitterdark.png" alt="X icon" className="w-6 h-auto" /> 
+        
+        }
             </motion.a>
             <motion.a
               href="https://github.com/Yussasif"
